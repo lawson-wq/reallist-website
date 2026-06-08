@@ -16,7 +16,7 @@ Tables:
 - Listings
 - Enquiries
 - Document Requests
-- Viewings
+- Private private viewing requests
 - Offers
 - Seller Reports
 - Vendors
