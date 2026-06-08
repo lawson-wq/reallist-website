@@ -1,1 +1,1 @@
-<footer class="footer"><div class="footer-inner"><div><b>Reallist.co.nz</b><br>Real Price. No Games.</div><div>Operated by Climber Real Estate. Licensed agency disclosure to be confirmed before launch.</div></div></footer>
+<footer class="footer"><div class="footer-inner"><div><b>Reallist.co.nz</b><br>Real Price. No Games.</div><div>Reallist.co.nz is operated by Climber Real Estate. Property sales and offer processes are handled by licensed real estate professionals.</div></div></footer>
