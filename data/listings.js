@@ -513,6 +513,8 @@ window.REALLIST_LISTINGS = [
       "Wellsford School - in zone"
     ],
     "viewing": "Private viewing by buyer request only",
+    "developmentToolkit": true,
+    "developmentNote": "This property has a larger freehold landholding. Buyers interested in future development or subdivision should complete their own planning, services and feasibility checks.",
     "documents": [
       "Title: available on request",
       "LIM/property file: available on request where applicable",
