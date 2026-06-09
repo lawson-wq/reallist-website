@@ -45,3 +45,6 @@ First version is English only. Keep the website simple and focused. Chinese cont
 ## Data notes
 - Council CV should be entered for every listing using council rating information.
 - Nearby sales should be shown as: Nearby sales available on request. Do not scrape or republish third-party sales data without permission.
+
+
+V9 update: Climber-style orange accent applied to the Reallist logo, Buy page filters added, and homepage/listing cards shortened to key facts only.
