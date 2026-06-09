@@ -48,3 +48,6 @@ First version is English only. Keep the website simple and focused. Chinese cont
 
 
 V9 update: Climber-style orange accent applied to the Reallist logo, Buy page filters added, and homepage/listing cards shortened to key facts only.
+
+
+V11 note: Added 146 Seabrook Avenue with a temporary placeholder image because the provided Trade Me photo link points to the Pukekohe listing, not the New Lynn property. Replace assets/placeholder-seabrook.svg with the correct approved photo set before public launch.

@@ -253,5 +253,267 @@ window.REALLIST_LISTINGS = [
       "Floor plan: available",
       "New-build maintenance warranty: 2 years from settlement date"
     ]
+  },
+  {
+    "id": "rl-004",
+    "status": "Available",
+    "badge": "Asking Price Only",
+    "price": "$1,100,000",
+    "originalPrice": "$1,100,000",
+    "priceHistory": [
+      "Listed on Reallist at $1,100,000"
+    ],
+    "address": "18 Rongoa Maori Way, Pukekohe, Auckland",
+    "legalAddress": "18 Rongoa Maori Way, Pukekohe, Auckland",
+    "lot": "",
+    "suburb": "Pukekohe",
+    "beds": 4,
+    "baths": 3,
+    "parking": 4,
+    "land": "Freehold, 490m²",
+    "floor": "195.5m²",
+    "type": "New Build House",
+    "image": "https://trademe.tmcdn.co.nz/photoserver/full/2308156626.jpg",
+    "images": [
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156626.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156657.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156630.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156660.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156638.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156644.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156647.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156651.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156664.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156668.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156673.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156675.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156678.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156679.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156680.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156681.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156683.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156685.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156686.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156689.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156690.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156691.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156692.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156695.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156699.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156701.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156704.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156705.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2308156708.jpg"
+    ],
+    "floorPlan": "https://trademe.tmcdn.co.nz/photoserver/full/2308156687.jpg",
+    "sitePlan": "",
+    "imageNote": "Photos are from the approved listing material. Buyers should confirm exact property details before making an offer.",
+    "summary": "18 Rongoa Maori Way is a clear-price brand-new home in Pukekohe with a practical family layout: 4 bedrooms, 3 bathrooms, 2 living areas, a double garage and 2 additional off-street parks. The 195.5m² floor plan sits on a 490m² freehold site, giving buyers more space than a typical compact new build. CCC and title have been issued, while the Council CV is still pending because the property is brand new. With a rental appraisal around $920-$950 per week, the property may suit families, work-from-home buyers or investors who want a new-build option with a clear asking price.",
+    "features": [
+      "New-build freehold house on a 490m² site",
+      "4 bedrooms, 3 bathrooms and 2 living areas",
+      "195.5m² floor area with a double garage",
+      "2 additional off-street parks",
+      "Open-plan living, modern kitchen and practical indoor-outdoor flow"
+    ],
+    "suitableFor": [
+      "Families wanting a larger new-build home with multiple living zones",
+      "Buyers seeking 4 bedrooms, 3 bathrooms and more parking than a compact townhouse",
+      "Owner-occupiers wanting Pukekohe with a clear asking price instead of price guessing"
+    ],
+    "watchouts": [
+      "Council CV is pending because this is a brand-new home and the council rating update has not been issued yet",
+      "Nearby sales are available on request",
+      "Buyers should review CCC, title, warranties and chattels before making an offer",
+      "School zone information should be independently checked with the school or official zoning sources"
+    ],
+    "rent": "$920 - $950/week",
+    "yield": "Approx. 4.35% - 4.49% gross",
+    "cv": "Pending council update - brand new house",
+    "nearbySales": "Nearby sales available on request",
+    "schoolZones": [
+      "Valley School - in zone",
+      "Pukekohe High School - in zone",
+      "Pukekohe Intermediate - in zone"
+    ],
+    "viewing": "Private viewing by buyer request only",
+    "documents": [
+      "Title: issued - available on request",
+      "CCC: issued - available on request",
+      "LIM/property file: available on request where applicable",
+      "Rental appraisal: $920-$950/week",
+      "Nearby sales: available on request",
+      "Floor plan: available"
+    ]
+  },
+  {
+    "id": "rl-005",
+    "status": "Available",
+    "badge": "Asking Price Only",
+    "price": "$700,000",
+    "originalPrice": "$700,000",
+    "priceHistory": [
+      "Listed on Reallist at $700,000"
+    ],
+    "address": "146 Seabrook Avenue, New Lynn, Auckland",
+    "legalAddress": "146 Seabrook Avenue, New Lynn, Auckland",
+    "lot": "",
+    "suburb": "New Lynn",
+    "beds": 2,
+    "baths": 1,
+    "parking": 4,
+    "land": "Cross lease title",
+    "floor": "85m² more or less",
+    "type": "Standalone Brick and Tile House",
+    "image": "https://trademe.tmcdn.co.nz/property/profile/listing/full/16574463303693995868.apng",
+    "images": [
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/16574463303693995868.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/11283045976084660717.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/11858126338248835307.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/3741284337633208048.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/16318496706602197580.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/8935641807519361394.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/3002231148269553453.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/12181109484480057221.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/2547302315051050850.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/10064813716101074256.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/4202430101358900489.apng",
+      "https://trademe.tmcdn.co.nz/property/profile/listing/full/11236636683731376276.apng"
+    ],
+    "floorPlan": "https://trademe.tmcdn.co.nz/property/profile/listing/full/1276016670030762327.apng",
+    "sitePlan": "",
+    "imageNote": "Photos and floor plan are from the approved Trade Me property profile material. Buyers should confirm exact property details before making an offer.",
+    "summary": "146 Seabrook Avenue is a clear-price standalone brick and tile home in New Lynn with 2 bedrooms, 1 bathroom and a double garage, plus additional off-street parking. The home has an 85m² floor area more or less and sits on a cross lease title. With an asking price of $700,000, Council CV of $900,000 and estimated rent around $600-$620 per week, it may suit buyers looking for a practical standalone home or investors wanting a straightforward rental profile in an established Auckland suburb. Buyers should review the cross lease title, flats plan and any shared-area obligations before making an offer.",
+    "features": [
+      "Standalone brick and tile house",
+      "2 bedrooms and 1 bathroom",
+      "Double garage plus additional off-street parking",
+      "Cross lease title",
+      "Estimated rent around $600-$620 per week"
+    ],
+    "suitableFor": [
+      "Buyers wanting a standalone home rather than an apartment or compact townhouse",
+      "Investors looking for a simple rental profile around $600-$620 per week",
+      "Buyers who want a clear asking price in New Lynn without auction guesswork"
+    ],
+    "watchouts": [
+      "Buyers should review the cross lease title, flats plan and any shared-area obligations",
+      "Council CV is rating valuation information and does not represent current market value",
+      "Nearby sales and rental appraisal are available on request",
+      "School zone information should be independently checked with the school or official zoning sources"
+    ],
+    "rent": "$600 - $620/week",
+    "yield": "Approx. 4.46% - 4.61% gross",
+    "cv": "$900,000",
+    "nearbySales": "Nearby sales available on request",
+    "schoolZones": [
+      "Arahoe School - in zone",
+      "Green Bay High School - in zone",
+      "Glen Eden Intermediate - in zone"
+    ],
+    "viewing": "Private viewing by buyer request only",
+    "documents": [
+      "Title: available on request where applicable",
+      "Cross lease / flats plan: available on request where applicable",
+      "LIM/property file: available on request where applicable",
+      "Rental appraisal: $600-$620/week",
+      "Nearby sales: available on request",
+      "Floor plan: available"
+    ]
+  },
+  {
+    "id": "rl-006",
+    "status": "Available",
+    "badge": "Asking Price Only",
+    "price": "$749,000",
+    "originalPrice": "$749,000",
+    "priceHistory": [
+      "Listed on Reallist at $749,000"
+    ],
+    "address": "20 Kelgary Place, Wellsford, Rodney, Auckland",
+    "legalAddress": "20 Kelgary Place, Wellsford, Rodney, Auckland",
+    "lot": "",
+    "suburb": "Wellsford",
+    "beds": 3,
+    "baths": 1,
+    "parking": 2,
+    "land": "Freehold, 767m²",
+    "floor": "84m²",
+    "type": "Renovated House",
+    "image": "https://trademe.tmcdn.co.nz/photoserver/full/2264733336.jpg",
+    "images": [
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733336.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733339.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733331.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733341.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733416.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733348.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733350.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733353.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733356.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733360.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733363.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733365.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733369.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733389.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733326.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733343.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733344.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733373.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733377.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733386.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2265962871.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733391.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733393.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733395.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733397.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733400.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733404.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733406.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733410.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733414.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733420.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733422.jpg",
+      "https://trademe.tmcdn.co.nz/photoserver/full/2264733424.jpg"
+    ],
+    "floorPlan": "",
+    "sitePlan": "",
+    "imageNote": "Photos are from the approved Trade Me listing material. Buyers should confirm exact property details before making an offer.",
+    "summary": "20 Kelgary Place is a renovated 3-bedroom home on a 767m² freehold section in Wellsford, offered with a clear asking price of $749,000. The home has an 84m² floor area, 1 bathroom, 1 living area and 2 garage spaces, with a rental appraisal around $630-$650 per week. The recent renovation includes kitchen and bathroom updates, new carpet, new blinds, fresh paint, deck refresh, digital entrance door, new garage door and CCTV system. Private viewings are arranged by buyer request only.",
+    "features": [
+      "Clear asking price: $749,000",
+      "3 bedrooms, 1 bathroom and 1 living area",
+      "767m² freehold section with 84m² floor area",
+      "2 garage spaces with basement/garage storage or workshop potential",
+      "Renovated kitchen, bathroom, carpet, blinds, paint, deck coating, entrance door, garage door and CCTV system"
+    ],
+    "suitableFor": [
+      "Buyers looking for a renovated standalone home with larger land in Wellsford",
+      "Families or first-home buyers wanting a move-in-ready home with outdoor space",
+      "Investors considering a property with rental appraisal around $630-$650 per week"
+    ],
+    "watchouts": [
+      "Council CV is $635,000 and has not necessarily reflected the 2024 renovation",
+      "Buyers should confirm title, LIM, property file and renovation documentation before making an offer",
+      "Floor plan is not currently displayed on Reallist and can be requested if available",
+      "Nearby sales and rental appraisal are available on request"
+    ],
+    "rent": "$630 - $650/week",
+    "yield": "Approx. 4.37% - 4.51% gross",
+    "cv": "$635,000",
+    "nearbySales": "Nearby sales available on request",
+    "schoolZones": [
+      "Rodney College - in zone",
+      "Wellsford School - in zone"
+    ],
+    "viewing": "Private viewing by buyer request only",
+    "documents": [
+      "Title: available on request",
+      "LIM/property file: available on request where applicable",
+      "Rental appraisal: $630-$650/week",
+      "Nearby sales: available on request",
+      "Photos: approved Trade Me listing material",
+      "Floor plan: available on request if supplied"
+    ]
   }
 ];

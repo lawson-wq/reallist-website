@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f5f2ec"/>
+  <rect x="70" y="70" width="1060" height="660" rx="28" fill="none" stroke="#111111" stroke-width="4" opacity="0.25"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#111111">146 Seabrook Avenue</text>
+  <text x="600" y="430" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#666666">Photos pending correct approved image link</text>
+  <text x="600" y="500" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#F58220">Real Price. No Games.</text>
+</svg>
