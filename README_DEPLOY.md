@@ -51,3 +51,12 @@ V9 update: Climber-style orange accent applied to the Reallist logo, Buy page fi
 
 
 V11 note: Added 146 Seabrook Avenue with a temporary placeholder image because the provided Trade Me photo link points to the Pukekohe listing, not the New Lynn property. Replace assets/placeholder-seabrook.svg with the correct approved photo set before public launch.
+
+
+## V16 update
+- Added an Auckland area dropdown to the Buy page using Trade Me-style Auckland property districts: Auckland City, Franklin, Hauraki Gulf Islands, Manukau City, North Shore City, Papakura, Rodney, Waiheke Island and Waitakere City.
+- Added a `region` field to each listing so future listings can be matched by Auckland area.
+- Kept suburb and school search as keyword fields for more flexible matching.
+
+
+V17 update: Buy page School zone filter is now a dropdown using current Trade Me school-zone names in the listing data. Add new school names to buy.html when new listings are added.
