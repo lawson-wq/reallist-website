@@ -21,3 +21,6 @@ Test:
 - Buyer Hub calculator and email enquiry form.
 - Sell page seller report sample.
 - Footer privacy/disclaimer/terms links.
+
+
+V27: Added viewing request model and seller-facing viewing tracking language.
