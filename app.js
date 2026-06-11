@@ -10,8 +10,24 @@ function buyerFit(p){const fits=[]; const cat=propertyCategory(p); const txt=[p.
 function propertySearchText(p){return [p.address,p.suburb,p.region,p.type,p.land,p.floor,p.rent,p.cv,p.nearbySales,titleType(p),propertyCategory(p),buyerFit(p).join(' '),(p.features||[]).join(' '),(p.schoolZones||[]).join(' ')].join(' ').toLowerCase()}
 function card(p){
   const cover=(p.images&&p.images[0])||p.image;
-  return `<article class="card"><div class="image-wrap"><img class="listing-img" loading="lazy" src="${cover}" alt="${p.address}">${p.imageNote?`<div class="image-note">${p.imageNote}</div>`:''}</div><div class="card-pad"><span class="pill">${p.badge}</span><div class="price">${p.price}</div><div class="meta"><b>${p.address}</b></div><div class="facts"><span class="fact">${p.beds} bed</span><span class="fact">${p.baths} bath</span><span class="fact">${p.parking} car</span></div><div class="compact-meta"><span>${p.region||''}</span><span>${titleType(p)}</span><span>${propertyCategory(p)}</span><span>Rent ${p.rent||'on request'}</span></div><div class="buyer-tags">${buyerFit(p).map(x=>`<span>${x}</span>`).join('')}</div><a class="btn alt" href="./listing.html?id=${p.id}">View property</a></div></article>`
+  return `<article class="card"><div class="image-wrap"><img class="listing-img" loading="lazy" src="${cover}" alt="${p.address}">${p.imageNote?`<div class="image-note">${p.imageNote}</div>`:''}</div><div class="card-pad"><span class="pill">${p.badge}</span><div class="price">${p.price}</div><div class="meta"><b>${p.address}</b></div><div class="facts"><span class="fact">${p.beds} bed</span><span class="fact">${p.baths} bath</span><span class="fact">${p.parking} car</span></div><div class="compact-meta"><span>${p.region||''}</span><span>${titleType(p)}</span><span>${propertyCategory(p)}</span><span>Rent ${p.rent||'on request'}</span></div><div class="buyer-tags">${buyerFit(p).map(x=>`<span>${x}</span>`).join('')}</div><a class="btn alt" href="./listing.html?id=${encodeURIComponent(p.id)}&v=26">View property</a></div></article>`
 }
+
+const BUYER_TALLY_URL = 'https://tally.so/r/jaEe7E';
+function tallyUrl(requestType='Free Consulting', p=null, sourcePage=null){
+  const params = new URLSearchParams();
+  params.set('source_page', sourcePage || (p ? 'listing' : 'website'));
+  params.set('request_type', requestType);
+  if(p){
+    params.set('property_address', p.address || '');
+    params.set('listing_id', p.id || '');
+  }
+  return `${BUYER_TALLY_URL}?${params.toString()}`;
+}
+function tallyButton(label='Get free consulting', requestType='Free Consulting', p=null, cls='btn'){
+  return `<a class="${cls}" href="${tallyUrl(requestType,p)}" target="_blank" rel="noopener">${label}</a>`;
+}
+
 function renderFeatured(limit=3){const el=document.querySelector('[data-featured]');if(!el)return;el.innerHTML=listingsData().slice(0,limit).map(card).join('')}
 function getFilters(){return {q:(document.querySelector('[data-filter="q"]')?.value||'').trim().toLowerCase(),region:(document.querySelector('[data-filter="region"]')?.value||'').trim(),zone:(document.querySelector('[data-filter="zone"]')?.value||'').trim().toLowerCase(),min:Number(document.querySelector('[data-filter="min"]')?.value||0),max:Number(document.querySelector('[data-filter="max"]')?.value||0),beds:Number(document.querySelector('[data-filter="beds"]')?.value||0),title:(document.querySelector('[data-filter="title"]')?.value||'').trim(),ptype:(document.querySelector('[data-filter="ptype"]')?.value||'').trim(),buyer:(document.querySelector('[data-filter="buyer"]')?.value||'').trim(),sort:(document.querySelector('[data-filter="sort"]')?.value||'newest').trim()}}
 function filteredListings(){const f=getFilters();let source=listingsData(); if(!source.length)return []; let list=source.filter(p=>{const price=priceNumber(p);const hay=propertySearchText(p);const zones=(p.schoolZones||[]).join(' ').toLowerCase();if(f.q && !hay.includes(f.q))return false;if(f.region && p.region!==f.region)return false;if(f.zone && !zones.includes(f.zone))return false;if(f.min && price<f.min)return false;if(f.max && price>f.max)return false;if(f.beds && Number(p.beds)<f.beds)return false;if(f.title && titleType(p)!==f.title)return false;if(f.ptype && propertyCategory(p)!==f.ptype)return false;if(f.buyer && !buyerFit(p).includes(f.buyer))return false;return true});
