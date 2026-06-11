@@ -1,21 +1,23 @@
-# Reallist MVP V18
+# Reallist MVP V23
 
-This package upgrades Reallist from a basic listing site into a sharper buyer/seller decision platform.
+Upload all files in this folder to the `lawson-wq/reallist-website` GitHub repository root.
 
-## Key updates
-- Home page mission, vision and product differentiation modules.
-- Buyer Hub with search filters, Help Centre, buyer journey, first-home buyer guide, investor guide, development buyer guide and mortgage/cashflow calculator.
-- Listing pages now include decision support, property-specific calculator and Development Toolkit for suitable large-land/development listings.
-- Sell page rebuilt as a seller journey.
-- About page rewritten as a sharper brand manifesto.
-- More modern, light property-tech visual treatment: subtle grid background, data cards, hover states and compact listing cards.
+## Main updates
+- Cleaner homepage with shorter copy and stronger product-console visual.
+- Listings page upgraded with buyer type, title type, property type, sort and school-zone filters.
+- Buyer Hub now acts as a practical buyer decision centre, with email-based enquiry fallback for GitHub Pages.
+- Listing pages include sticky free consulting enquiry, property-specific calculator and Property Research Links.
+- Sell page includes seller benefits and a sample weekly seller report.
+- Contact page is split into Buyer / Seller / Developer entry paths.
+- Added Privacy Policy, Disclaimer, Terms of Use, robots.txt and sitemap.xml.
 
-## Deploy to GitHub Pages
-1. Unzip this package.
-2. Upload all files into the `reallist-website` GitHub repository, replacing existing files.
-3. Commit to `main`.
-4. Wait for GitHub Actions / Pages deployment to show a green tick.
-5. Test: `https://lawson-wq.github.io/reallist-website/buy.html?v=18`
+## Testing
+Use cache busting after upload:
+`https://lawson-wq.github.io/reallist-website/index.html?v=23`
 
-## Notes
-Forms remain static MVP forms. Before public launch, connect forms to Tally, Fillout, Airtable, or another enquiry capture tool.
+Test:
+- Listings filters: buyer type, title, property type, sort by yield.
+- Listing detail page: sticky enquiry, calculator, research links.
+- Buyer Hub calculator and email enquiry form.
+- Sell page seller report sample.
+- Footer privacy/disclaimer/terms links.

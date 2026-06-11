@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reallist.co.nz/sitemap.xml
