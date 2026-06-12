@@ -709,3 +709,121 @@ body{background:linear-gradient(180deg,#fbfaf7 0%,#f4f1eb 100%)}
   .cashback-console-list div{grid-template-columns:1fr}
   .cashback-console-actions .btn{width:100%}
 }
+
+
+/* V37 homepage simplification: buyer cashback once + seller fixed commission */
+.v37-home{
+  grid-template-columns:1fr 1fr;
+}
+.launch-console{
+  position:relative;
+  z-index:2;
+  border-radius:42px;
+  padding:28px;
+  color:#fff;
+  background:
+    radial-gradient(circle at 12% 4%,rgba(245,130,32,.22),transparent 28%),
+    radial-gradient(circle at 90% 92%,rgba(245,130,32,.32),transparent 30%),
+    linear-gradient(145deg,#080808,#1b1b1b 58%,#292929);
+  box-shadow:0 34px 110px rgba(17,17,17,.28);
+  overflow:hidden;
+}
+.launch-console::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px);
+  background-size:34px 34px;
+  mask-image:linear-gradient(180deg,#000,transparent 94%);
+  pointer-events:none;
+}
+.launch-console>*{position:relative;z-index:1}
+.launch-top{
+  padding:22px 22px 16px;
+}
+.launch-top span{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:#f8b56e;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.15em;
+}
+.launch-top span::before{
+  content:"";
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:#f58220;
+  box-shadow:0 0 20px rgba(245,130,32,.9);
+}
+.launch-top b{
+  display:block;
+  margin-top:12px;
+  font-size:42px;
+  line-height:1;
+  letter-spacing:-1.7px;
+  max-width:520px;
+}
+.launch-offers{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:14px;
+}
+.launch-offer{
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:28px;
+  padding:24px;
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(18px);
+}
+.launch-offer.buyer{
+  background:linear-gradient(135deg,rgba(245,130,32,.24),rgba(255,255,255,.08));
+  border-color:rgba(245,130,32,.35);
+}
+.offer-label{
+  display:inline-flex;
+  border-radius:999px;
+  padding:7px 10px;
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.15);
+  color:#f8b56e;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  font-size:11px;
+  font-weight:900;
+}
+.launch-offer h2{
+  font-size:34px;
+  line-height:1;
+  letter-spacing:-1.2px;
+  margin:16px 0 10px;
+}
+.launch-offer p{
+  color:rgba(255,255,255,.72);
+  margin:0 0 18px;
+  max-width:560px;
+}
+.launch-terms{
+  margin:16px 0 0;
+  color:rgba(255,255,255,.55);
+  font-size:12px;
+  padding:0 22px 6px;
+}
+.v37-core{
+  padding-top:30px;
+}
+@media(max-width:1020px){
+  .v37-home{grid-template-columns:1fr}
+}
+@media(max-width:680px){
+  .launch-console{border-radius:30px;padding:18px}
+  .launch-top{padding:16px}
+  .launch-top b{font-size:32px}
+  .launch-offer{padding:20px;border-radius:24px}
+  .launch-offer h2{font-size:28px}
+  .launch-offer .btn{width:100%}
+}
