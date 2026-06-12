@@ -582,3 +582,130 @@ body{background:linear-gradient(180deg,#fbfaf7 0%,#f4f1eb 100%)}
   .cashback-number b{font-size:44px}
   .section-actions .btn{width:100%}
 }
+
+
+/* V36 homepage simplified cashback hero */
+.v36-home{
+  grid-template-columns:1.02fr .98fr;
+}
+.cashback-console{
+  position:relative;
+  z-index:2;
+  min-height:480px;
+  border-radius:42px;
+  padding:30px;
+  color:#fff;
+  background:
+    radial-gradient(circle at 88% 84%,rgba(245,130,32,.46),transparent 28%),
+    radial-gradient(circle at 10% 8%,rgba(245,130,32,.2),transparent 26%),
+    linear-gradient(145deg,#090909,#1b1b1b 58%,#292929);
+  box-shadow:0 34px 110px rgba(17,17,17,.28);
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.cashback-console::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px);
+  background-size:34px 34px;
+  mask-image:linear-gradient(180deg,#000,transparent 92%);
+  pointer-events:none;
+}
+.cashback-console>*{position:relative;z-index:1}
+.cashback-console-top{
+  border:1px solid rgba(255,255,255,.14);
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(18px);
+  border-radius:30px;
+  padding:30px;
+}
+.cashback-console-top span{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:#f8b56e;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.15em;
+}
+.cashback-console-top span::before{
+  content:"";
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:#f58220;
+  box-shadow:0 0 20px rgba(245,130,32,.9);
+}
+.cashback-console-top b{
+  display:block;
+  font-size:76px;
+  line-height:.92;
+  letter-spacing:-4px;
+  margin:18px 0 14px;
+}
+.cashback-console-top p{
+  margin:0;
+  color:rgba(255,255,255,.75);
+  font-size:16px;
+  max-width:520px;
+}
+.cashback-console-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin:20px 0;
+}
+.btn.ghost-light{
+  background:rgba(255,255,255,.08);
+  color:#fff;
+  border-color:rgba(255,255,255,.2);
+}
+.btn.ghost-light:hover{
+  background:#fff;
+  color:#111;
+}
+.cashback-console-list{
+  display:grid;
+  gap:10px;
+}
+.cashback-console-list div{
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+  gap:14px;
+  align-items:center;
+  padding:14px 16px;
+  border-radius:20px;
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(255,255,255,.07);
+}
+.cashback-console-list b{
+  font-size:14px;
+}
+.cashback-console-list span{
+  color:rgba(255,255,255,.66);
+  font-size:13px;
+  line-height:1.35;
+}
+.v36-buyer-paths .portal-card:first-child{
+  border-color:rgba(245,130,32,.42);
+  background:linear-gradient(135deg,#fff,#fff1e1);
+}
+.v36-buyer-paths .portal-card:first-child h2{
+  color:#111;
+}
+@media(max-width:1020px){
+  .v36-home{grid-template-columns:1fr}
+  .cashback-console{min-height:auto}
+}
+@media(max-width:680px){
+  .cashback-console{border-radius:30px;padding:22px}
+  .cashback-console-top{padding:22px;border-radius:24px}
+  .cashback-console-top b{font-size:54px;letter-spacing:-2px}
+  .cashback-console-list div{grid-template-columns:1fr}
+  .cashback-console-actions .btn{width:100%}
+}
