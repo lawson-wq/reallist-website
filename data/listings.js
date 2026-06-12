@@ -83,7 +83,13 @@ window.REALLIST_LISTINGS = [
       "Rental appraisal: available on request",
       "Floor plan: available",
       "New-build maintenance warranty: 2 years from settlement date"
-    ]
+    ],
+    "buyerTags": [
+      "First-home buyer",
+      "Investor"
+    ],
+    "propertyCategory": "New build",
+    "titleType": "Freehold"
   },
   {
     "id": "rl-002",
@@ -169,7 +175,13 @@ window.REALLIST_LISTINGS = [
       "Rental appraisal: available on request",
       "Floor plan: available",
       "New-build maintenance warranty: 2 years from settlement date"
-    ]
+    ],
+    "buyerTags": [
+      "First-home buyer",
+      "Investor"
+    ],
+    "propertyCategory": "New build",
+    "titleType": "Freehold"
   },
   {
     "id": "rl-003",
@@ -255,7 +267,13 @@ window.REALLIST_LISTINGS = [
       "Rental appraisal: available on request",
       "Floor plan: available",
       "New-build maintenance warranty: 2 years from settlement date"
-    ]
+    ],
+    "buyerTags": [
+      "First-home buyer",
+      "Investor"
+    ],
+    "propertyCategory": "New build",
+    "titleType": "Freehold"
   },
   {
     "id": "rl-004",
@@ -348,7 +366,13 @@ window.REALLIST_LISTINGS = [
       "Rental appraisal: $920-$950/week",
       "Nearby sales: available on request",
       "Floor plan: available"
-    ]
+    ],
+    "buyerTags": [
+      "Home buyer",
+      "Investor"
+    ],
+    "propertyCategory": "New build",
+    "titleType": "Freehold"
   },
   {
     "id": "rl-005",
@@ -424,7 +448,13 @@ window.REALLIST_LISTINGS = [
       "Rental appraisal: $600-$620/week",
       "Nearby sales: available on request",
       "Floor plan: available"
-    ]
+    ],
+    "buyerTags": [
+      "First-home buyer",
+      "Investor"
+    ],
+    "propertyCategory": "Standalone",
+    "titleType": "Cross lease"
   },
   {
     "id": "rl-006",
@@ -522,6 +552,13 @@ window.REALLIST_LISTINGS = [
       "Nearby sales: available on request",
       "Photos: approved Trade Me listing material",
       "Floor plan: available on request if supplied"
-    ]
+    ],
+    "buyerTags": [
+      "Home buyer",
+      "Investor",
+      "Developer / land buyer"
+    ],
+    "propertyCategory": "Land / development",
+    "titleType": "Freehold"
   }
 ];
