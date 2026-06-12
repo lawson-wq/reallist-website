@@ -464,3 +464,121 @@ body{background:linear-gradient(180deg,#fbfaf7 0%,#f4f1eb 100%)}
   .reallist-os{border-radius:30px;padding:20px}
   .os-main b{font-size:34px}
 }
+
+
+/* V35 homepage buyer-acquisition layer */
+.v35-home .lead{max-width:690px}
+.v35-hook{
+  max-width:690px;
+  margin:18px 0 0;
+  padding:16px 18px;
+  border-radius:22px;
+  border:1px solid rgba(245,130,32,.28);
+  background:linear-gradient(135deg,rgba(255,255,255,.86),rgba(255,247,239,.88));
+  box-shadow:0 16px 40px rgba(17,17,17,.055);
+  color:#2e2a26;
+}
+.v35-hook b{color:#111}
+.btn.gold{background:linear-gradient(135deg,#f58220,#ffae62);border-color:#f58220;color:#111;box-shadow:0 16px 38px rgba(245,130,32,.24)}
+.btn.gold:hover{transform:translateY(-2px);box-shadow:0 20px 48px rgba(245,130,32,.32)}
+.buyer-os .os-main b{font-size:40px}
+.v35-cashback{padding-top:24px}
+.cashback-panel{
+  position:relative;
+  overflow:hidden;
+  display:grid;
+  grid-template-columns:1.5fr .55fr;
+  gap:28px;
+  align-items:center;
+  border-radius:34px;
+  padding:34px;
+  background:linear-gradient(135deg,#111,#1d1d1d);
+  color:#fff;
+  box-shadow:0 26px 90px rgba(17,17,17,.2);
+}
+.cashback-panel::before{
+  content:"";
+  position:absolute;
+  right:-120px;
+  top:-150px;
+  width:360px;
+  height:360px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(245,130,32,.42),rgba(245,130,32,0) 68%);
+  pointer-events:none;
+}
+.cashback-panel>*{position:relative;z-index:1}
+.cashback-panel h2{
+  max-width:780px;
+  font-size:42px;
+  line-height:1.03;
+  letter-spacing:-1.8px;
+  margin:10px 0 14px;
+}
+.cashback-panel p{color:rgba(255,255,255,.76);max-width:780px}
+.cashback-points{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:20px 0 14px;
+}
+.cashback-points span{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:9px 12px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.14);
+  background:rgba(255,255,255,.08);
+  font-weight:800;
+  font-size:13px;
+}
+.cashback-points span::before{
+  content:"";
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#f58220;
+  box-shadow:0 0 18px rgba(245,130,32,.8);
+}
+.terms-note{font-size:12px!important;color:rgba(255,255,255,.58)!important}
+.cashback-cta{
+  display:grid;
+  gap:18px;
+  justify-items:stretch;
+}
+.cashback-number{
+  border:1px solid rgba(255,255,255,.16);
+  background:rgba(255,255,255,.08);
+  border-radius:28px;
+  padding:24px;
+  text-transform:uppercase;
+  font-size:12px;
+  letter-spacing:.12em;
+  font-weight:900;
+  color:#f8b56e;
+  text-align:center;
+}
+.cashback-number b{
+  display:block;
+  color:#fff;
+  font-size:54px;
+  letter-spacing:-2px;
+  line-height:.95;
+  margin-top:8px;
+}
+.v35-buyer-paths .portal-card:first-child{
+  border-color:rgba(245,130,32,.34);
+  background:linear-gradient(135deg,#fff,#fff3e7);
+}
+.section-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+@media(max-width:920px){
+  .cashback-panel{grid-template-columns:1fr}
+  .cashback-panel h2{font-size:34px}
+  .cashback-number{text-align:left}
+}
+@media(max-width:620px){
+  .cashback-panel{padding:24px;border-radius:26px}
+  .cashback-number b{font-size:44px}
+  .section-actions .btn{width:100%}
+}
