@@ -32,3 +32,5 @@ body{background:linear-gradient(180deg,#fbfaf7 0%,#f4f1eb 100%)}
 
 /* V27 viewing request model */
 .viewing-model{background:linear-gradient(180deg,#fff,#fff9f2);border-color:#e3caa9}.viewing-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px 0}.viewing-stats div{background:#111;color:#fff;border-radius:18px;padding:16px}.viewing-stats span{display:block;color:#d7d7d7;font-size:12px}.viewing-stats b{font-size:22px}.panel.dark h2{color:#fff}.panel.dark p{color:#e7e7e7}@media(max-width:720px){.viewing-stats{grid-template-columns:1fr}}
+
+.stacked-actions{display:flex;flex-direction:column;gap:12px;margin-top:18px}.action-panel{border:1px solid rgba(245,130,32,.25);background:linear-gradient(135deg,#fff,#fff7ef)}
